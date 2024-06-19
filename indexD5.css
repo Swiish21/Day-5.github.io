@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    background-image: url(african-elephant-7253752_1920.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navigation {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 999;
+}
+.logo > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navlinks {
+    padding: 1px;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navlinks > a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: rgb(255, 253, 253);
+}
+
+.header {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 9px;
+    margin-left: 25%;
+    font-size: 120px;
+    color: white;
+    box-shadow: 10%;
+    text-shadow: 10%;
+}
+.subheader {
+    width: 100%;
+    margin-left: 2px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.search {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0;
+}
+
+.search > input {
+    width: 90%;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.search > button {
+    padding: 10px;
+    border-radius: 9999px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.column {
+    flex: 33.33px;
+    padding: 5px;
+}
+.row {
+    margin-top: 100px;
+    display: flex;
+}
+.row .column:hover{
+    opacity: 0.5;
+}
