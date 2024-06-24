@@ -85,9 +85,85 @@ body {
     padding: 5px;
 }
 .row {
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
 }
 .row .column:hover{
     opacity: 0.5;
+}
+.holiday_cards {
+    width: 70%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card > img {
+    width: 100%;
+    height: auto;
+}
+.card_content > p {
+    margin: 0 0 8px
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: black
+}
+.card_content > h2 {
+    margin: 0 0 8px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.card_content > button {
+    margin: 8px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    color: rgb(253, 253, 253);
+    background-color: rgb(0, 0, 0);
+    border-radius: 9999px;
+    margin-left: 36%;
+    cursor: pointer;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px 0;
+    width: 30%;
+    color: white;
+}
+.gallery {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    margin-left: 36%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    box-shadow: 10%;
+    text-shadow: 10%;
+}
+.gall {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 1%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.holiday_cards > h1 {
+    margin-left: 30%;
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+.card_content > button:hover {
+    background-color: rgb(1, 0, 85);
+    color: rgb(255, 255, 255);
 }
