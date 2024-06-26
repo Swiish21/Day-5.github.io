@@ -68,6 +68,14 @@ body {
     padding-bottom: 0px;
     padding-left: 30px;
   }
+  .container .card-container:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+  }
+  .card-container .card:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+  }
   
   .card {
     text-align: center;
