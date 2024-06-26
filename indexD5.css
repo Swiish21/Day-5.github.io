@@ -93,17 +93,20 @@ body {
     display: flex;
 }
 .row .column:hover{
-    opacity: 0.5;
+    transform: scale(1.02);
+    transition: transform .2s;
 }
 .row2 .column:hover{
-    opacity: 0.5;
+    transform: scale(1.02);
+    transition: transform .2s;
 }
 .row3 {
     margin-top: 10px;
     display: flex;
 }
 .row3 .column:hover {
-    opacity: 0.5;
+    transform: scale(1.02);
+    transition: transform .2s;
 }
 .holiday_cards {
     width: 70%;
@@ -115,6 +118,10 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.cards_container .card:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
 }
 .card > img {
     width: 100%;
