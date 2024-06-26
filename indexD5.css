@@ -182,3 +182,12 @@ body {
     background-color: rgb(1, 0, 85);
     color: rgb(255, 255, 255);
 }
+.disclaimer {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 1%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
