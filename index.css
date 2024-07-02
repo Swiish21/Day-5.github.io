@@ -204,3 +204,45 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+
+footer {
+    width: 80%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-top: 6rem;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.footer_2 > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.footer_2 > p > a:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+.footer_3 > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.footer_1 {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.footer_1 > h1 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
