@@ -209,7 +209,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
   color: #fff; /* White text */
   padding: 30px 0;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .footer-container {
@@ -264,6 +264,7 @@ body {
 .copyright {
   margin-top: 10px;
   font-size: 14px;
+  text-align: center;
 }
 .footer-nav > ul > li > a {
     text-decoration: none;
