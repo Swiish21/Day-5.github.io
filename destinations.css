@@ -122,11 +122,12 @@ body {
     transform: scale(1.02);
     transition: transform .2s;
 }
+
 .holiday_cards {
     width: 70%;
     margin: auto;
     color: rgb(255, 255, 255);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .cards_container {
@@ -221,73 +222,73 @@ body {
 }
 
 .cool-footer {
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
-  color: #fff; /* White text */
-  padding: 30px 0;
-  margin-top: 20px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; /* Wrap content on smaller screens */
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.footer-brand {
-  flex: 1; /* Take up available space */
-}
-
-.footer-brand h1 {
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.footer-nav,
-.footer-social {
-  flex: 1;
-}
-
-.footer-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-nav li {
-  display: inline-block;
-  margin: 0 15px;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer-social a {
-  color: inherit;
-  margin: 0 10px;
-  font-size: 20px;
-}
-
-.footer-social a:hover {
-  color: #ddd;
-}
-
-.copyright {
-  margin-top: 10px;
-  font-size: 14px;
-  text-align: center;
-}
-.footer-nav > ul > li > a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 900;
-}
-.footer-nav > ul > li > a:hover {
-    transform: scale(1.05);
-    transition: transform .2s;
-}
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: #fff; /* White text */
+    padding: 30px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap content on smaller screens */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-brand {
+    flex: 1; /* Take up available space */
+  }
+  
+  .footer-brand h1 {
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .footer-nav,
+  .footer-social {
+    flex: 1;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-social a {
+    color: inherit;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .footer-social a:hover {
+    color: #ddd;
+  }
+  
+  .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-nav > ul > li > a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      font-weight: 900;
+  }
+  .footer-nav > ul > li > a:hover {
+      transform: scale(1.05);
+      transition: transform .2s;
+  }

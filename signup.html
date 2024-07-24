@@ -4,8 +4,6 @@
 <head>
     <title>Login / Register</title>
     <link rel="stylesheet" href="signup.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="footer.css">
     <script type="module" src="./auth.js"></script>
 
 </head>
@@ -16,31 +14,30 @@
         <div class="navlinks">
             <a href="about.html">About</a>
             <a href="signup.html">Sign Up</a>
-            <a href="">Services</a>
+            <a href="destinations.html">Services & Destinations</a>
             <a href="">Contact us</a>
         </div>
-    </section>
-    <div class="login-container">
-        <div id="main">
-            <h1>Sign In</h1>
-            <input id="email" type="text" placeholder="Email" />
-            <input id="password" type="password" placeholder="Password" />
-            <button id="submit">Login</button>
-            <p class="p"><span>or</span></p>
-            <button id="sign-up">Sign Up</button>
-        </div>
-
-        <div id="create-acct">
-            <h1>Create an Account</h1>
-            <input id="email-signup" type="text" placeholder="Email *" />
-            <input id="confirm-email-signup" type="email" placeholder="Confirm Email *" />
-            <input id="password-signup" type="password" placeholder="Password *" />
-            <input id="confirm-password-signup" type="password" placeholder="Confirm Password *" />
-            <button id="create-acct-btn">Create Account</button>
-            <button id="return-btn">Return to Login</button>
-        </div>
+      </section>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Login Form</span></div>
+        <form action="#">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Email or Phone" required>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="pass"><a href="#">Forgot password?</a></div>
+          <div class="row button">
+            <input type="submit" value="Login">
+          </div>
+          <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+        </form>
+      </div>
     </div>
-
 
     <footer class="cool-footer">
         <div class="footer-container">
